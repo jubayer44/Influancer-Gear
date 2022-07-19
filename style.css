@@ -22,6 +22,15 @@ body{
 
 /* ____________________________navigation Part Style Start__________________________  */
 
+.mobile-manu{
+    display: none;
+}
+.manubar > div{
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -70,7 +79,7 @@ body{
 
 .banner-title p{
     font-weight: 600;
-    font-size: 1vw;
+    font-size: 16px;
     margin-bottom: 32px;
 }
 
@@ -80,7 +89,7 @@ body{
     background: #E02C6D;
     border-radius: 41px;
     padding: 10px 24px;
-    font-size: 1vw;
+    font-size: 16px;
 }
 
 .banner-image{
@@ -252,9 +261,109 @@ footer{
 
  @media screen and (max-width: 576px) {
     .nav-container{
-        display:inline;
-    }
+        display: none;
  }
+.mobile-manu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.icon img{
+    width: 35px;
+}
 
+    .title-for-moba h2{
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    .container{
+        padding: 2px;
+        margin-bottom: 60px;
+    }
+.fa-solid fa-cart-shopping{
+    display: inline;
+}
+.top-banner{
+    flex-direction: column-reverse;
+    height: 40vh;
+    margin-top: 135px;
+}
+.banner-title{
+    text-align: center;
+    padding: 35px 0;
+}
+.banner-image, .banner-title{
+        width: 100%;
+    
+}
 
+.banner-title h1{
+    font-size: 5vw;
+}
+.banner-title p{
 
+}
+.card > h2{
+    font-size: 16px;
+}
+.card > h3{
+    font-size: 12px;
+}
+.card > p{
+    font-size: 12px;
+}
+.Product-title .title-two{
+    font-size: 16px;
+}
+.service-logo{
+    margin-top: 130px;
+}
+.service-logo{
+    flex-wrap: wrap;
+    border-top: none;
+    border-bottom: none;
+}
+.service-logo img{
+    width: 22%;
+    padding: 9px;
+}
+
+.collection-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+
+ }
+ .products-featured{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    padding: 10px;
+}
+    .featured-image{
+        width: 100%;
+        height: auto;
+    }
+    .featured-image img, .featured-detail{
+        width: 100%;
+    }
+    .product-txt{
+        text-align: center;
+    }
+    .product-txt h2{
+        font-size: 16px;
+    }
+    .product-txt p{
+        font-size: 12px;
+    }
+ }  
